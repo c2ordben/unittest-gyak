@@ -18,11 +18,11 @@ class Testfibo(unittest.TestCase):
     def nulla(self):
         self.assertEqual(fibo(0),0)
     def elsopoz(self):
-        self.assertEqual(fibo(5),3)
+        self.assertEqual(fibo(5)5)
     def masodikpoz(self):
-        self.assertEqual(fibo(11),55)
+        self.assertEqual(fibo(10),55)
     def harmadikpoz(self):
-        self.assertEqual(fibo(7),8)
+        self.assertEqual(fibo(7),13)
 
 if __name__ == "__main__":
     unittest.main()
