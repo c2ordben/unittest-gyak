@@ -20,6 +20,9 @@ class Testfibo(unittest.TestCase):
     def elsopoz(self):
         self.assertEqual(fibo(5),3)
     def masodikpoz(self):
-        self.assertEqual(fibo(10),55)
+        self.assertEqual(fibo(11),55)
     def harmadikpoz(self):
         self.assertEqual(fibo(7),8)
+
+if __name__ == "__main__":
+    unittest.main()
