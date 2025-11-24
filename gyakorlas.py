@@ -22,7 +22,7 @@ class Testfibo(unittest.TestCase):
     def test_masodikpoz(self):
         self.assertEqual(fibo(10),55)
     def test_harmadikpoz(self):
-        self.assertEqual(fibo(7),12)
+        self.assertEqual(fibo(7),13)
 
 if __name__ == "__main__":
     unittest.main()
