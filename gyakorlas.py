@@ -13,16 +13,18 @@ def fibo(n :int):
     return tmp
     
 class Testfibo(unittest.TestCase):
-    def Neg(self):
+    def test_Neg(self):
         self.assertEqual(fibo(-2),0)
-    def nulla(self):
+    def test_nulla(self):
         self.assertEqual(fibo(0),0)
-    def elsopoz(self):
-        self.assertEqual(fibo(5)5)
-    def masodikpoz(self):
+    def test_elsopoz(self):
+        self.assertEqual(fibo(5),5)
+    def test_masodikpoz(self):
         self.assertEqual(fibo(10),55)
-    def harmadikpoz(self):
-        self.assertEqual(fibo(7),13)
+    def test_harmadikpoz(self):
+        self.assertEqual(fibo(7),12)
 
 if __name__ == "__main__":
     unittest.main()
+
+print(fibo(2))
